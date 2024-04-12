@@ -6,12 +6,10 @@ import java.io.*;
 import java.util.*;
 
 public abstract class Calculator {
-    protected final InputStream in;
     protected final PrintStream out;
     private final Scanner scanner;
 
     public Calculator(InputStream in, PrintStream out) {
-        this.in = in;
         this.out = out;
         scanner = new Scanner(in);
     }
