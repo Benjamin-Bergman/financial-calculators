@@ -22,8 +22,8 @@ public class FutureCalculator extends Calculator {
         var total = deposit * Math.pow(1 + compoundRate, numCompounds);
         var gain = total - deposit;
 
+        out.println();
         out.printf("""
-                %n
                 Total value at end of period: $%.2f
                 Total interest gained:        $%.2f
                 """, total, gain);
