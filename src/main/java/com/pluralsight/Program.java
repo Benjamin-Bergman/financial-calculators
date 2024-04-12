@@ -9,6 +9,7 @@ import java.util.*;
 public class Program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        scanner.useDelimiter("\n");
         boolean showHelp = true;
         while (true) {
             if (showHelp)
@@ -21,7 +22,7 @@ public class Program {
                         Type "exit" to quit.""");
 
             showHelp = true;
-            var input = scanner.next();
+            var input = scanner.next().trim();
 
             Calculator calculator;
 

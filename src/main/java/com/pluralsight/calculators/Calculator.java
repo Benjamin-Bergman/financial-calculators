@@ -12,6 +12,7 @@ public abstract class Calculator {
     public Calculator(InputStream in, PrintStream out) {
         this.out = out;
         scanner = new Scanner(in);
+        scanner.useDelimiter("\n");
     }
 
     protected double queryDouble(String message) {
