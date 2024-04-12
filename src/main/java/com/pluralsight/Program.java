@@ -7,7 +7,7 @@ import com.pluralsight.calculators.*;
 public class Program {
     public static void main(String[] args) {
         // TODO: Determine which calculator to use
-        Calculator c = new FutureCalculator(System.in, System.out);
+        Calculator c = new AnnuityCalculator(System.in, System.out);
 
         c.run();
     }
