@@ -11,7 +11,7 @@ public class MortgageCalculator extends Calculator {
 
     @Override
     public void run() {
-        var principle = queryDouble("Principle value (dollars): ");
+        var principle = queryDouble("Loan amount (dollars): ");
         var rate = queryDouble("Interest rate (percent per year): ") * 0.01;
         var length = queryDouble("Loan length (years): ");
 
