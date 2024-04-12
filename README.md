@@ -56,4 +56,4 @@ Please try again.
 Deposit value (dollars): 
 ```
 
-The logic for this is in `Calculator.queryDouble()`. This is interesting because I reuse it across all of the calculators via inheritance.
+The logic for this is in [`Calculator.queryDouble()`](https://github.com/Benjamin-Bergman/financial-calculators/blob/main/src/main/java/com/pluralsight/calculators/Calculator.java#L19). This is interesting because I reuse it across all of the calculators via inheritance.
