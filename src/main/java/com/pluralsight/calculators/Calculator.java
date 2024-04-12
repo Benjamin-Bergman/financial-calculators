@@ -22,7 +22,7 @@ public abstract class Calculator {
             try {
                 return scanner.nextDouble();
             } catch (InputMismatchException e) {
-                out.printf("Bad input: %s%n%s%nPlease try again.", scanner.next(), message);
+                out.printf("Bad input: %s%nPlease try again.%n", scanner.next());
                 out.print(message);
             }
         }
